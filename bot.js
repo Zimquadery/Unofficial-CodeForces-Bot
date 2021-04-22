@@ -22,7 +22,7 @@ bot.on("message", (message) => {
       helpdesk(Discord, message);
       break;
 
-    case "contests":
+    case "contests" || "cf" || "Cf" || "CF" || "contest" || "Contest":
       cfcontests(message, args, fetch);
       break;
   }
